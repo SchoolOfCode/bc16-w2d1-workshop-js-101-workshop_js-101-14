@@ -1,14 +1,10 @@
-function convertGBPtoEUR(currency,conversionRate){  
+let pounds = 500;
 
-    currency * conversionRate 
-    
-    return
+function convertGBPtoEUR(currency){  
 
-
+   return currency * 1.17 
 
 };
 
-let gbp = 500;
-let eurorate = 1.17;
 
-console.log(convertGBPtoEUR(gbp, eurorate));
+console.log(convertGBPtoEUR(pounds))
